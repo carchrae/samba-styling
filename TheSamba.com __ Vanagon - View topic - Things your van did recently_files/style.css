@@ -1,0 +1,749 @@
+body {
+    color: #000;
+    background-color: #fff;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px
+}
+
+#nav, #nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    background: #42637b;
+    font-size: 11px;
+    font-weight: 700
+}
+
+#nav a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: .25em .5em
+}
+
+#nav li {
+    float: left;
+    position: relative;
+    width: 15em
+}
+
+#nav li ul {
+    position: absolute;
+    left: -999em;
+    height: auto;
+    width: 15em;
+    background: #293f4f;
+    z-index: 99
+}
+
+#nav li ul li {
+    float: left;
+    position: relative;
+    width: 15em
+}
+
+#nav li:hover ul {
+    left: auto
+}
+
+#nav li:hover ul, #nav li.sfhover ul {
+    left: auto
+}
+
+#nav li a.headerwhite, #nav li a.headerwhiteselected {
+    font-size: 13px;
+    text-align: center
+}
+
+#nav li:hover, #nav li.sfhover {
+    background: #293f4f
+}
+
+#nav li ul li:hover, #nav li ul li.sfhover {
+    background: #42637b
+}
+
+#nav #homemenu {
+    width: 80px
+}
+
+#nav #classifiedsmenu {
+    width: 115px
+}
+
+#nav #gallerymenu {
+    width: 90px
+}
+
+#nav #forumsmenu {
+    width: 90px
+}
+
+#nav #communitymenu {
+    width: 120px
+}
+
+#nav #archivesmenu {
+    width: 100px
+}
+
+#nav #technicalmenu {
+    width: 105px
+}
+
+font, th, td, p {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px
+}
+
+a:link, a:active, a:visited {
+    color: #42637b
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #c00000
+}
+
+hr {
+    height: 0;
+    border: solid #d1d7dc 0;
+    border-top-width: 1px
+}
+
+.bodyline {
+    background-color: #fff;
+    border: 1px #98aab1 solid
+}
+
+.forumline {
+    background-color: #fff;
+    border: 2px #42637b solid
+}
+
+td.row1 {
+    background-color: #efefef
+}
+
+td.row2 {
+    background-color: #dee3e7
+}
+
+td.row3 {
+    background-color: #d1d7dc
+}
+
+td.rowpic {
+    background-color: #fff;
+    background-image: url(/vw/forum/templates/subSilver/images/cellpic2.jpg);
+    background-repeat: repeat-y
+}
+
+th {
+    color: #fefefe;
+    font-size: 11px;
+    font-weight: 700;
+    background-color: #42637b;
+    height: 25px
+}
+
+td.cat, td.catHead, td.catSides, td.catLeft, td.catRight, td.catBottom {
+    background-image: url(/vw/forum/templates/subSilver/images/cellpic1.gif);
+    background-color: #d1d7dc;
+    border: #fff;
+    border-style: solid;
+    height: 28px
+}
+
+td.cat, td.catHead, td.catBottom {
+    height: 29px;
+    border-width: 0
+}
+
+th.thHead, th.thSides, th.thTop, th.thLeft, th.thRight, th.thBottom, th.thCornerL, th.thCornerR {
+    font-weight: 700;
+    border: #fff;
+    border-style: solid;
+    height: 28px
+}
+
+td.row3Right, td.spaceRow {
+    background-color: #d1d7dc;
+    border: #fff;
+    border-style: solid
+}
+
+th.thHead, td.catHead {
+    font-size: 12px;
+    border-width: 1px 1px 0
+}
+
+th.thSides, td.catSides, td.spaceRow {
+    border-width: 0 1px
+}
+
+th.thRight, td.catRight, td.row3Right {
+    border-width: 0 1px 0 0
+}
+
+th.thLeft, td.catLeft {
+    border-width: 0 0 0 1px
+}
+
+th.thBottom, td.catBottom {
+    border-width: 0 1px 1px
+}
+
+th.thTop {
+    border-width: 1px 0 0
+}
+
+th.thCornerL {
+    border-width: 1px 0 0 1px
+}
+
+th.thCornerR {
+    border-width: 1px 1px 0 0
+}
+
+.maintitle {
+    font-weight: 700;
+    font-size: 22px;
+    font-family: trebuchet ms, Verdana, Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    line-height: 120%;
+    color: #000
+}
+
+.gen {
+    font-size: 12px
+}
+
+.genblack {
+    font-size: 12px
+}
+
+.genmed {
+    font-size: 11px
+}
+
+.genheader {
+    font-size: 13px
+}
+
+.genheaderwhite {
+    font-size: 13px
+}
+
+.genheaderdarkorange {
+    font-size: 14px;
+    font-weight: 700;
+    color: #bb3601
+}
+
+.genmedwhite {
+    font-size: 11px;
+    font-weight: 700
+}
+
+.genmedyellow {
+    font-size: 11px
+}
+
+.genmeddarkorange {
+    font-size: 11px;
+    font-weight: 700
+}
+
+.genmedblack {
+    font-size: 11px
+}
+
+.genmedscam {
+    font-size: 11px
+}
+
+.gensmall {
+    font-size: 10px
+}
+
+.gensmallwhite {
+    font-size: 10px
+}
+
+.gensmallyellow {
+    font-size: 10px
+}
+
+.gensmallblack {
+    font-size: 10px
+}
+
+.gen, .genmed, .gensmall {
+    color: #000
+}
+
+.genwhite, .genmedwhite, .gensmallwhite {
+    color: #fff
+}
+
+.gensmallyellow, .genmedyellow {
+    color: #ffc000
+}
+
+.genmeddarkorange {
+    color: #bb3601
+}
+
+.gensmallscam, .genmedscam {
+    color: #ffc000
+}
+
+.genheader {
+    color: #000
+}
+
+.genheaderwhite {
+    color: #fff
+}
+
+a.gen, a.genmed, a.gensmall {
+    color: #42637b;
+    text-decoration: none
+}
+
+a.gensmallwhite, a.genmedwhite, a.genheaderwhite {
+    color: #fff;
+    text-decoration: none
+}
+
+a.gensmallyellow, a.genmedyellow {
+    color: #ffc000;
+    text-decoration: none
+}
+
+a.genmeddarkorange {
+    color: #bb3601;
+    text-decoration: none
+}
+
+a.genheaderdarkorange {
+    color: #bb3601;
+    text-decoration: none
+}
+
+a.genblack, a.genmedblack, a.genheader {
+    color: #000;
+    text-decoration: none
+}
+
+a.gensmallblack {
+    color: #000;
+    text-decoration: none
+}
+
+a.genmedscam {
+    color: #ffc000;
+    text-decoration: none;
+    font-weight: 700
+}
+
+a.genmedwhite:visited, a.gensmallwhite:visited, a.genheaderwhite:visited {
+    color: #fff;
+    text-decoration: none
+}
+
+a.gensmallyellow:visited, a.genmedyellow:visited {
+    color: #ffc000;
+    text-decoration: none
+}
+
+a.genmeddarkorange:visited {
+    color: #bb3601;
+    text-decoration: none
+}
+
+a.genheaderdarkorange:visited {
+    color: #bb3601;
+    text-decoration: none
+}
+
+a.genblack:visited, a.genmedblack:visited, a.gensmallblack:visited, a.genheader:visited {
+    color: #000;
+    text-decoration: none
+}
+
+a.genmedscam:visited, a.gensmallscam:visited {
+    color: #ffc000;
+    text-decoration: none
+}
+
+a.gen:hover, a.genmed:hover, a.gensmall:hover {
+    color: #dd6900;
+    text-decoration: underline
+}
+
+a.genmedwhite:hover, a.gensmallwhite:hover, a.genheaderwhite:hover {
+    color: #fff;
+    text-decoration: underline
+}
+
+a.gensmallyellow:hover, a.genmedyellow:hover {
+    color: #ffc000;
+    text-decoration: underline
+}
+
+a.genmeddarkorange:hover {
+    color: #bb3601;
+    text-decoration: underline
+}
+
+a.genheaderdarkorange:hover {
+    color: #bb3601;
+    text-decoration: underline
+}
+
+a.genblack:hover, a.genmedblack:hover, a.gensmallblack:hover, a.genheader:hover {
+    color: #000;
+    text-decoration: underline
+}
+
+a.genmedscam:hover, a.genmedscam:hover {
+    color: #ffc000;
+    text-decoration: underline
+}
+
+a.username:link, a.username:active, a.username:visited {
+    color: #000;
+    text-decoration: none
+}
+
+a.username:hover {
+    text-decoration: underline;
+    color: #c00000
+}
+
+.mainmenu {
+    font-size: 11px;
+    color: #000
+}
+
+a.mainmenu {
+    text-decoration: none;
+    color: #42637b
+}
+
+a.mainmenu:hover {
+    text-decoration: underline;
+    color: #c00000
+}
+
+.cattitle {
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: #42637b
+}
+
+a.cattitle {
+    text-decoration: none;
+    color: #42637b
+}
+
+a.cattitle:hover {
+    text-decoration: underline
+}
+
+.forumlink {
+    font-weight: 700;
+    font-size: 12px;
+    color: #42637b
+}
+
+a.forumlink {
+    text-decoration: none;
+    color: #42637b
+}
+
+a.forumlink:hover {
+    text-decoration: underline;
+    color: #c00000
+}
+
+.nav {
+    font-weight: 700;
+    font-size: 11px;
+    color: #000
+}
+
+a.nav {
+    text-decoration: none;
+    color: #42637b
+}
+
+a.nav:hover {
+    text-decoration: underline
+}
+
+.pages {
+    font-weight: 700;
+    font-size: 12px;
+    color: #000
+}
+
+a.pages {
+    text-decoration: none;
+    color: #42637b
+}
+
+a.pages:hover {
+    text-decoration: underline
+}
+
+.topictitle {
+    font-weight: 700;
+    font-size: 11px;
+    color: #000
+}
+
+h1, h2 {
+    font-weight: 700;
+    font-size: 11px;
+    color: #000
+}
+
+a.topictitle:link {
+    text-decoration: none;
+    color: #42637b
+}
+
+a.topictitle:visited {
+    text-decoration: none;
+    color: #5493b4
+}
+
+a.topictitle:hover {
+    text-decoration: underline;
+    color: #c00000
+}
+
+.name {
+    font-size: 11px;
+    color: #000
+}
+
+.postdetails {
+    font-size: 10px;
+    color: #000
+}
+
+.postbody {
+    font-size: 12px;
+    line-height: 18px
+}
+
+a.postlink:link {
+    text-decoration: none;
+    color: #42637b
+}
+
+a.postlink:visited {
+    text-decoration: none;
+    color: #5493b4
+}
+
+a.postlink:hover {
+    text-decoration: underline;
+    color: #c00000
+}
+
+.code {
+    font-family: Courier, courier new, sans-serif;
+    font-size: 11px;
+    color: #004000;
+    background-color: #fafafa;
+    border: #d1d7dc;
+    border-style: solid;
+    border-left-width: 1px;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px
+}
+
+.quote {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #444;
+    line-height: 125%;
+    background-color: #fafafa;
+    border: #d1d7dc;
+    border-style: solid;
+    border-left-width: 1px;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px
+}
+
+.copyright {
+    font-size: 10px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: #444;
+    letter-spacing: -1px
+}
+
+a.copyright {
+    color: #444;
+    text-decoration: none
+}
+
+a.copyright:hover {
+    color: #000;
+    text-decoration: underline
+}
+
+input, textarea, select {
+    color: #000;
+    font: 11px Verdana, Arial, Helvetica, sans-serif;
+    border-color: #000
+}
+
+input.post, textarea.post, select {
+    background-color: #fff
+}
+
+input {
+    text-indent: 2px
+}
+
+input.button {
+    background-color: #efefef;
+    color: #000;
+    font-size: 11px;
+    font-family: Verdana, Arial, Helvetica, sans-serif
+}
+
+input.mainoption {
+    background-color: #fafafa;
+    font-weight: 700
+}
+
+input.mainoption:disabled {
+    color: gray
+}
+
+input.liteoption {
+    background-color: #fafafa;
+    font-weight: 400
+}
+
+.helpline {
+    background-color: #dee3e7;
+    border-style: none
+}
+
+img, .forumline img {
+    border: 0
+}
+
+.title {
+    font-size: 16px;
+    font-weight: 700
+}
+
+.bordered {
+    border-color: #524a52;
+    border-width: 2px;
+    background-color: #fff;
+    border-style: solid
+}
+
+.borderedhome {
+    border-color: #d4d4d4;
+    border-width: 1px;
+    background-color: #fff;
+    border-style: solid
+}
+
+.borderedclass {
+    border-color: #42637b;
+    border-width: 2px;
+    background-color: #fff;
+    border-style: solid
+}
+
+.barclass {
+    border-width: 2px;
+    background-color: #fff;
+    border-style: solid;
+    border-top-color: #42637b;
+    border-left-color: #fff;
+    border-right-color: #fff;
+    border-bottom-color: #fff
+}
+
+td.navon {
+    height: 25px;
+    border: #e1dcd5;
+    border-style: solid;
+    border-width: 1px 0 0;
+    background-color: #d4d4d4
+}
+
+td.navoff {
+    height: 25px;
+    border: #e1dcd5;
+    border-style: solid;
+    border-width: 1px 0 0;
+    background-color: #efefef
+}
+
+td.navonhighlight {
+    height: 25px;
+    border: #e1dcd5;
+    border-style: solid;
+    border-width: 1px 0 0;
+    background-color: #293f4f
+}
+
+.thumbnail {
+    position: relative;
+    z-index: 0
+}
+
+.thumbnail:hover {
+    background-color: transparent;
+    z-index: 50
+}
+
+.thumbnail span {
+    position: absolute;
+    padding: 5px;
+    left: -1000px;
+    visibility: hidden;
+    color: #000;
+    text-decoration: none
+}
+
+.thumbnail span img {
+    border-width: 0;
+    padding: 2px
+}
+
+.thumbnail:hover span {
+    visibility: visible;
+    top: -30px;
+    left: 60px
+}
+
+#marqueecontainer {
+    position: relative;
+    width: 90%;
+    height: 175px;
+    overflow: hidden;
+    padding: 2px;
+    padding-left: 4px;
+    border-color: #fff;
+    border-width: 1px;
+    background-color: #fff;
+    border-style: solid
+}
